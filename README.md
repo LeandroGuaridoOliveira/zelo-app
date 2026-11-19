@@ -15,6 +15,19 @@
 
 ---
 
+## 📺 Demonstração em Vídeo
+
+- **Link no YouTube (até 5 min):** [https://youtu.be/8Bvqe0Pwj5E](https://youtu.be/8Bvqe0Pwj5E)
+- **Duração Oficial:** 4m 48s (em conformidade com o limite máximo de 5:00 da disciplina)
+- **Tópicos Demonstrados:**
+  1. **Arquitetura no VS Code:** Estrutura de pastas `src/` em camadas, camada HTTP nativa (`fetchWithTimeout`), injeção dinâmica do commit hash do Git no `app.config.js`.
+  2. **Autenticação:** Telas de login e cadastro, validações de formulário e persistência de sessão.
+  3. **CRUD Completo de Medicamentos:** Listagem, cadastro de novo lembrete, edição de horário e exclusão com feedback visual (integrado à API REST).
+  4. **Perfil Cuidador:** Monitoramento da residência em tempo real, fluxo de atendimento de alerta (*"Vou verificar agora"*), registro de desfecho com retorno ao status Normal, gestão da rede de apoio e resumo semanal.
+  5. **Perfil Idoso e Acessibilidade:** Interface simplificada, confirmação de remédios de hoje, check-in com respostas rápidas, botão de emergência com modal de segurança contra toque acidental e tela "Sobre o Aplicativo".
+
+---
+
 ## Visão Geral do Projeto
 
 O **Zelo** é uma plataforma de monitoramento de rotina não invasivo para idosos que moram sozinhos, baseada em sensores de presença e de abertura de porta (sem uso de câmeras). Quando é identificado um desvio na rotina diária, o sistema realiza primeiro um **check-in** com o idoso. Caso não haja resposta ou o idoso solicite auxílio, o alerta é escalado para a **rede de apoio** (familiares e vizinhos cadastrados) até que um responsável assuma a verificação.
