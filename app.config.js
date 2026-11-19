@@ -46,7 +46,7 @@ module.exports = {
     extra: {
       commitHash: commitHash,
       eas: {
-        projectId: '00000000-0000-0000-0000-000000000000',
+        projectId: 'c76c8eb7-1ec7-4fc0-978b-63fba9efff8a',
       },
     },
   },
